@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugadores, Equipos y Estadísticas de la NBA</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!--Encabezado de la página-->
+    <header>
+        <h1>Jugadores, Equipos y Estadísticas de la NBA</h1>
+    </header>
+
+    <!--Menú de navegación-->
+    <nav>
+        <ul>
+            <li><a href="Historia y fundamentos de la NBA.HTML">Inicio</a></li>
+            <li><a href="Historia de la NBA.html">Historia</a></li>
+            <li><a href="Fundamentos de la NBA.html">Fundamentos</a></li>
+            <li><a href="Jugadores Equipos y Estadisticas.html">Equipos, Jugadores, Estadísticas y más</a></li>
+        </ul>
+    </nav>
+
+    <!--Contenedor principal: Sección de contenido y aside-->
+    <div class="contenedor">
+
+        <!--Sección principal (Lado izquierdo)-->
+        <section>
+            <h2>Grandes Jugadores y Franquicias Legendarias</h2>
+
+            <article>
+                <h3>1. Franquicias Más Ganadoras de la Historia</h3>
+                <p><b>Los Boston Celtics y Los Angeles Lakers encabezan la lista</b> como las franquicias más laureadas en la historia de la liga. A lo largo de las décadas, ambas entidades han construido rivalidades icónicas que han definido eras enteras del baloncesto profesional.</p>
+                <blockquote>"Las camisetas colgadas en el techo del pabellón recuerdan la exigencia de la excelencia". -<strong>Tradición de la NBA</strong></blockquote>
+                <p><mark>Líderes de títulos: Boston Celtics (18) | Los Angeles Lakers (17) | Golden State Warriors (7)</mark> | <small>Categoría: Franquicias</small></p>
+
+                <h3>2. Líderes Estadísticos Históricos</h3>
+                <p><b>Las estadísticas reflejan la regularidad y el dominio</b> de los mejores jugadores a lo largo de sus carreras. Desde el récord de puntos anotados hasta los máximos asistentes y reboteadores, estos números marcan el estándar de grandeza en la NBA.</p>
+                <blockquote>"Los números no mienten, pero el impacto de un gran líder va mucho más allá de las estadísticas".</blockquote>
+                <p>Métricas clave: Puntos | Asistencias | Rebotes | Tapones | <mark><small>Estatus: Récords Oficiales</small></mark></p>
+            </article>
+
+            <h2>Tabla de Líderes Estadísticos Históricos</h2>
+            <table>
+                <tr>
+                    <th>Categoría Estadísticas</th>
+                    <th>Jugador Líder</th>
+                    <th>Cifra Histórica</th>
+                    <th>Equipo / Era Principal</th>
+                </tr>
+                <tr>
+                    <td>Máximo Anotador Histórico</td>
+                    <td>LeBron James</td>
+                    <td>+40,000 Puntos</td>
+                    <td>LA Lakers / Miami Heat / Cleveland</td>
+                </tr>
+                <tr>
+                    <td>Máximo Asistente Histórico</td>
+                    <td>John Stockton</td>
+                    <td>15,806 Asistencias</td>
+                    <td>Utah Jazz</td>
+                </tr>
+                <tr>
+                    <td>Máximo Reboteador Histórico</td>
+                    <td>Wilt Chamberlain</td>
+                    <td>23,924 Rebotes</td>
+                    <td>Philadelphia / LA Lakers</td>
+                </tr>
+                <tr>
+                    <td>Máximo Anotador de Triples</td>
+                    <td>Stephen Curry</td>
+                    <td>+3,700 Triples</td>
+                    <td>Golden State Warriors</td>
+                </tr>
+                <tr>
+                    <td>Máximo Taponador Histórico</td>
+                    <td>Hakeem Olajuwon</td>
+                    <td>3,830 Tapones</td>
+                    <td>Houston Rockets</td>
+                </tr>
+            </table>
+
+            <h2>Video Destacado de Jugadas Legendarias</h2>
+            <p>Disfruta de una recopilación de las mejores jugadas de la NBA:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UYOweoZiBnM?si=_nQGgirgCilbWRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <h2>Comunidad NBA - Votación de Jugadores</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+
+                <label for="conferencia">¿Qué conferencia sigues más?</label><br>
+                <select id="conferencia" name="conferencia">
+                    <option value="">-- Selecciona una Conferencia --</option>
+                    <option value="este">Conferencia Este</option>
+                    <option value="oeste">Conferencia Oeste</option>
+                </select><br><br>
+
+                <label for="mensaje">¿Cuál es tu quinteto ideal de todos los tiempos?</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Menciona a tus 5 jugadores favoritos por posición..."></textarea><br><br>
+
+                <input type="checkbox" id="boletin" name="boletin" value="si">
+                <label for="boletin">Deseo recibir actualizaciones sobre estadísticas y resultados</label><br><br>
+                
+                <input type="submit" value="Enviar Registro">
+            </form>
+            
+        </section>
+
+        <!--Aside (Columna lateral)-->
+        <aside>
+            <h2>Símbolos e Iconos de la Liga</h2>
+            <figure>
+                <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS1daYj_mziHZAwm79-ZX9NFyk9Xi1NKdzIRUlA4mxR4KtJu722e_3kRsxstmPKkjGD5IkJTcTi1kDRzu8" alt="Jugador estrella controlando el balón" width="300" height="200">
+                <figcaption>Control de balón de un jugador estrella de la liga</figcaption>
+
+                <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=500&q=80" alt="Estadio de baloncesto iluminado" width="300" height="200">
+                <figcaption>Pabellón repleto para un partido de playoffs</figcaption>
+
+                <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?w=500&q=80" alt="Aro y red de baloncesto" width="300" height="200">
+                <figcaption>El objetivo final en cada posesión ofensiva</figcaption>
+            </figure>
+
+            <h2>Glosario de Términos Avanzados</h2>
+            <dl>
+                <dt>Triple-Doble</dt>
+                <dd>Conseguir dobles dígitos (10 o más) en tres categorías estadísticas distintas en un solo partido (puntos, rebotes, asistencias, etc.).</dd>
+                
+                <dt>Salary Cap</dt>
+                <dd>Límite salarial impuesto a los equipos para mantener el equilibrio competitivo en la liga.</dd>
+                
+                <dt>Playoffs</dt>
+                <dd>Fase eliminatoria al final de la temporada regular donde los mejores 16 equipos compiten por el campeonato.</dd>
+                
+                <dt>Free Agent</dt>
+                <dd>Jugador que no está bajo contrato con ningún equipo y puede negociar libremente con cualquier franquicia.</dd>
+            </dl>
+        </aside>
+
+    </div>
+
+    <!--Pie de página-->
+    <footer>
+        <p>Todos los derechos reservados NBA, 2026-2027</p>
+    </footer>
+
+</body>
+</html>
